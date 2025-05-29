@@ -1,0 +1,36 @@
+{
+  "name": "gitdb",
+  "version": "1.0.0",
+  "description": "A simple Node.js library to read/write JSON files on GitHub as a GitDB.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gitdb.git"
+  },
+  "keywords": [
+    "github",
+    "json",
+    "database",
+    "gitdb",
+    "octokit"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.0",
+    "nodejs-base64-converter": "^1.0.3"
+  }
+}
