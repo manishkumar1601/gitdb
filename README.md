@@ -10,9 +10,11 @@ A simple Node.js library to read/write JSON files on GitHub and serve as a light
 
 ```bash
 npm install gitdb
+```
 
-  or
+or
 
+```bash
 npm install git+https://github.com/manishkumar1601/gitdb.git
 ```
 
